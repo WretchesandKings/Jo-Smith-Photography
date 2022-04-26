@@ -1,0 +1,820 @@
+$textcolour: #353535;
+$maincolour: #FFBDE3;
+
+
+body {
+  background-color: white;
+}
+
+.pink {
+  color: #FFBDE3
+}
+
+h2, h3, h4 {
+  font-family: Quicksand;
+}
+
+
+
+a {
+  font-family: 'Grape Nuts', cursive;
+  color: #353535;
+  text-decoration: none;
+
+}
+
+.title {
+  position: initial;
+  z-index: -1;
+  font-family: Pristina;
+  color: $textcolour;
+  margin-bottom: 40px;
+  font-size: 80px;
+}
+
+.font2 {
+  font-family: 'Quicksand', sans-serif;
+  color: #353535;
+}
+
+a:hover {
+  color: #FFBDE3
+}
+
+
+.brushmark {
+  width: 100%;
+  height: 190px;
+  margin-top: -190px;
+}
+
+.josmith {
+  width: 100%;
+  height: 100%;
+}
+
+.centerdiv {
+  display: grid;
+  justify-content: center;
+}
+
+.maintext {
+  text-align: center;
+  max-width: 900px;
+  width: auto;
+}
+
+.portraits {
+
+  height: 300px;
+  width: 300px;
+  border-radius: 45px 45px 45px 45px;
+  // margin-left: -30px;
+
+}
+
+
+
+.weddings {
+
+  height: 300px;
+  width: 300px;
+  border-radius: 45px 45px 45px 45px;
+  // margin-right: 150px;
+
+}
+
+.imagetext, .imagetext2 {
+  margin-top: 100px;
+  position: absolute;
+  width: 300px;
+  height: 150px;
+}
+
+.imagetext2 {
+  width:300px;
+  height: 200px;
+  margin-top: 70px;
+}
+
+.imagelinks, .imagelinks2 {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  margin-bottom: 100px;
+
+}
+
+#weddings, #portraits:hover {
+
+cursor: pointer;
+
+}
+
+.imagelinks2 {
+  width: 300px;
+  height: 300px;
+}
+
+
+
+
+
+.socialmediaicons {
+
+width: 117px;
+height: 117px;
+
+
+
+}
+
+.socialmedialink {
+  width: 117px;
+  height: 117px;
+  margin-left: 100px;
+  margin-right: 100px;
+
+
+}
+
+
+
+.sociallinks {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+
+}
+
+.title2 {
+  margin-bottom: 0px;
+  width: 300px;
+  height: auto;
+
+}
+
+.rings {
+    height: auto;
+    width: 800px;
+    margin-top: 50px;
+    border-radius: 200px 200px 200px 200px;
+
+}
+
+.centreelements {
+  margin-top: 100px;
+  display: grid;
+  justify-content: center;
+}
+
+// .navbar-dark
+.navbar-toggler-icon,
+// .navbar-toggler
+ {
+  // display: none;
+  background-image: url(./images/burger.svg) !important;
+  border-color: rgba(0, 0, 0, .1);
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icons:focus{
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+////////////////////////////////////////////////////////////////////////////Testimonials
+
+.clientface {
+  width: 200px;
+  height: 200px;
+  border-radius: 180px 180px 180px 180px;
+
+}
+
+.testimonialtext {
+  width: 600px;
+  text-align: left;
+}
+
+.showcase {
+  justify-content: center;
+}
+
+.invertedcomma {
+  font-family: Pristina;
+  font-size: 100px;
+  width: 30px;
+  margin-right: 30px;
+}
+
+.clienttext {
+  display: flex;
+}
+
+
+
+
+///////////////////WEddingtext
+
+
+
+.weddingtext, .portraitstext, .portraitstext2 {
+
+margin-left: auto;
+margin-right: auto;
+font-size: 1rem;
+  width: 500px;
+  text-align: center;
+}
+
+
+//////////////////////////////////////////////////////////
+
+.allportraitstext {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  text-align: center;
+}
+
+.portraitstext2 {
+  width: 200px;
+  text-align: center;
+}
+
+
+
+.studiovouchers {
+
+  margin-bottom: 100px;
+  text-decoration: underline;
+}
+
+
+
+///////////////////////////////////////////////////////////////ABOUT ME
+
+
+
+.josmithface {
+  width: 200px;
+  height: 200px;
+  border-radius: 180px 180px 180px 180px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////// CONTACT AND MAP
+
+
+.mapmarkerpink {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  margin-top: 135px;
+  z-index: 1;
+}
+
+
+.addresstext {
+  font-size: 20px;
+}
+
+
+
+
+// ////////////////////////////////////////////////////////MODAL
+
+.modal-open {
+  width: 70px;
+  height: 70px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
+}
+
+.modal-open:hover {
+  cursor: pointer;
+}
+
+
+
+
+.closemodal {
+  width: 50px;
+  height: 50px;
+
+}
+
+.close-modal {
+  margin-top: 50px;
+}
+
+
+
+.closemodal:hover {
+  cursor: pointer;
+}
+
+.modalBox {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.modalContent {
+  display: none;
+  border-radius: 20px 20px 20px 20px;
+  background-color: white;
+  width: 60%;
+  height: 600px;
+  max-width: 100%;
+  padding: 50px 50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .03);
+
+}
+
+
+
+
+
+
+
+///////////////////////////////////////////////////
+
+
+//////////////////////////////////////////
+
+@media only screen and (max-width: 575px) {
+
+
+  h4 {
+    font-size: 20px;
+  }
+
+  .weddingtext, .portraitstext, .portraitstext2 {
+
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+    width: 300px;
+    text-align: left;
+  }
+
+  .portraitstext2 {
+    width: 200px;
+    text-align: center;
+  }
+
+  .title {
+    position: initial;
+    z-index: -1;
+    font-family: Pristina;
+    color: $textcolour;
+    margin-bottom: 40px;
+    font-size: 50px;
+    margin-top: 30px;
+  }
+
+  .title2 {
+    margin-bottom: 0px;
+    width: 200px;
+    height: auto;
+
+  }
+
+  .portraits {
+
+    height: 200px;
+    width: 200px;
+    border-radius: 45px 45px 45px 45px;
+    margin-left: 0px;
+
+  }
+
+
+
+  .weddings {
+
+    height: 200px;
+    width: 200px;
+    border-radius: 45px 45px 45px 45px;
+    // margin-right: 150px;
+
+  }
+
+  .imagetext, .imagetext2 {
+    margin-top: 25px;
+    margin-left: 10px;
+    position: absolute;
+    width: 180px;
+    height: 180px;
+
+  }
+
+  .imagetext2 {
+    margin-top: 30px;
+    margin-left: 25px;
+    width: 150px;
+    height: 150px;
+
+  }
+
+  .imagelinks {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin-bottom: 100px;
+
+  }
+
+  .imagelinks2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .socialmediaicons {
+
+  width: 50px;
+  height: 50px;
+
+  }
+
+  .socialmedialink {
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+  }
+
+  .sociallinks {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+
+  }
+
+  .rings {
+      height: auto;
+      width: 300px;
+      margin-top: 50px;
+      border-radius: 200px 200px 200px 200px;
+
+  }
+
+  .maintext {
+    text-align: left !important;
+    padding-left: 10px;
+    padding-right:10px;
+    max-width: 900px;
+    width: auto;
+  }
+
+
+  ////////////////////////////////////////////////////////////////////////////Testimonials
+
+  .clientface {
+    width: 100px;
+    height: 100px;
+    border-radius: 180px 180px 180px 180px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .testimonialtext {
+    width: 250px !important;
+    text-align: left;
+    margin-top: 0 !important;
+    padding-top: 50px;
+  }
+
+  .showcase {
+    justify-content: center;
+    grid-template-columns: auto;
+    margin-top: 50px;
+  }
+
+  .invertedcomma {
+    font-family: Pristina;
+    font-size: 50px;
+    width: 30px;
+    margin-right: auto;
+    margin-left: -10px;
+  }
+
+  .clienttext {
+    display: flex;
+    margin-left: 0 !important;
+  }
+
+
+
+
+  ///////////////////
+
+
+
+
+// .gallerydiv {
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+
+
+
+
+
+
+
+
+
+  /////////////////////////////////////////////// CONTACT AND MAP
+
+
+  // .mapmarkerpink {
+  //   position: absolute;
+  //   width: 100%;
+  //   height: 40px;
+  //   margin-top: 135px;
+  //   z-index: 1;
+  // }
+  //
+  //
+  // .addresstext {
+  //   font-size: 20px;
+  // }
+  //
+  // // .map {
+  // //   width: 200px;
+  // //   height: 300px;
+  // // }
+  //
+  // .map {
+  //   width: 200;
+  //   height: 100%;
+  //   position: absolute;
+  //   left: 50%;
+  //   transform: translate(-50%, 0);
+  // }
+  //
+  //
+  //
+  // .mapdiv {
+  //
+  //   height: 216px;
+  //   position: relative;
+  //   overflow: hidden;
+  //
+  //
+  //
+  // }
+
+  // ////////////////////////////////////////////////////////MODAL
+
+  .modal-open {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+
+  }
+
+  .modal-open:hover {
+    cursor: pointer;
+  }
+
+
+
+  .closemodal:hover {
+    cursor: pointer;
+  }
+
+  .modalBox {
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 99;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .modalContent {
+    display: none;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white;
+    width: 80%;
+    height: 500px;
+    max-width: 100%;
+    padding: 30px 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .03);
+
+  }
+
+
+
+
+
+}
+
+  ///////////////////////////////////////////////////
+
+
+
+
+.gallery {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+
+.gallerygrid {
+
+  padding-top: 4rem;
+
+  display: grid;
+
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  img {
+    height: 100%;
+    width: 100%;
+    transition: 1.5s ease-in-out;
+  }
+
+  img:hover {
+    transform: scale(1.2);
+  }
+
+  a {
+    overflow: hidden;
+  }
+
+}
+
+.galleryDiv1 { grid-area: 1 / 2 / 2 / 3; }
+.galleryDiv2 { grid-area: 1 / 3 / 2 / 4; }
+.galleryDiv3 { grid-area: 1 / 4 / 2 / 5; }
+.galleryDiv4 { grid-area: 1 / 5 / 2 / 6; }
+.galleryDiv5 { grid-area: 2 / 2 / 3 / 3; }
+.galleryDiv6 { grid-area: 2 / 3 / 3 / 4; }
+.galleryDiv7 { grid-area: 2 / 4 / 3 / 5; }
+.galleryDiv8 { grid-area: 2 / 5 / 3 / 6; }
+.galleryDiv9 { grid-area: 3 / 2 / 4 / 3; }
+.galleryDiv10 { grid-area: 3 / 3 / 4 / 4; }
+.galleryDiv11 { grid-area: 3 / 4 / 4 / 5; }
+.galleryDiv12 { grid-area: 3 / 5 / 4 / 6; }
+
+
+.gallerygridsmall {
+
+
+  padding-top: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  img {
+    height: 100%;
+    width: 100%;
+    transition: 1.5s ease-in-out;
+  }
+
+  img:hover {
+    transform: scale(1.2);
+  }
+
+  a {
+    overflow: hidden;
+  }
+}
+
+.galleryDiv1small { grid-area: 1 / 1 / 2 / 2; }
+.galleryDiv2small { grid-area: 1 / 2 / 2 / 3; }
+.galleryDiv3small { grid-area: 1 / 3 / 2 / 4; }
+.galleryDiv4small { grid-area: 1 / 4 / 2 / 5; }
+
+
+@media only screen and (max-width: 575px) {
+
+
+  .gallery {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+
+
+  .gallerygrid {
+
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    display: grid;
+
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+    img {
+      height: 100%;
+      width: 100%;
+      transition: 1.5s ease-in-out;
+    }
+
+    img:hover {
+      transform: scale(1.2);
+    }
+
+    a {
+      overflow: hidden;
+    }
+
+  }
+
+
+  .gallerygridsmall {
+
+
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    img {
+      height: 100%;
+      width: 100%;
+      transition: 1.5s ease-in-out;
+    }
+
+    img:hover {
+      transform: scale(1.2);
+    }
+
+    a {
+      overflow: hidden;
+    }
+  }
+
+
+
+
+
+
+}
